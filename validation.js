@@ -36,4 +36,9 @@ let str = 'The rain in Spain falls mainly in the plain';
 
 // Validate
 let validator = /S/g;
+let validator1 = /[0-9]/g;
 console.log(validator.test(str));
+
+// Find
+let regex = /in\b/g;
+console.log(str.match(regex));
