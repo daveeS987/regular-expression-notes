@@ -19,3 +19,5 @@
 - $ - in order to match, preceding characters will need to be at end of string
 - | - similar to 'or', will match if letter matches character thats used with or
 - () groups expressions
+
+

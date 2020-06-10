@@ -27,3 +27,13 @@ inputs.forEach((input) => {
     validate(e.target, patterns[e.target.attributes.name.value]);
   });
 });
+
+
+
+
+
+let str = 'The rain in Spain falls mainly in the plain';
+
+// Validate
+let validator = /S/g;
+console.log(validator.test(str));
